@@ -3,14 +3,15 @@ body {
   color: #434455;
   font-family: "Raleway", sans-serif;
 }
+.link {
+  text-decoration: none;
+}
 .list {
   list-style: none;
 }
 /* header */
-.nav .li {
-  display: inline-block;
-}
-.logo-header {
+
+.header-logo {
   color: #2e2f42;
   font-family: "Raleway";
   font-style: normal;
