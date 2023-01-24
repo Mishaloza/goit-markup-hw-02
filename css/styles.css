@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.button {
+  cursor: pointer;
+}
+
 body {
   background-color: #ffffff;
   color: #434455;
@@ -18,7 +22,6 @@ body {
 .logo,
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -40,22 +43,34 @@ body {
 
 .header-link {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-link:hover,
+.header:link:focus {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404bbf;
 }
 
 .header-address-link {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  color: #404bbf;
 }
 
 .hero {
@@ -64,87 +79,84 @@ body {
 
 .hero-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-button {
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .section-adventages-item-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .section-adventages-item-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
 .section-projects-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
 .section-team-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
 .section-team-item-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .section-team-item-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -158,10 +170,56 @@ body {
 
 .footer-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.02em;
   color: #e7e9fc;
+}
+
+/* PORTFOLIO */
+
+.section-buttons-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  flex-grow: 0;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.section-buttons-button:hover,
+.section-buttons-button:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
+
+.section-cards-item-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.section-cards-item-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
