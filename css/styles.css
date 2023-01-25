@@ -1,225 +1,173 @@
+:root {
+  --hero-bgr-links-headings-logo-header-studio-color: #2e2f42;
+  --main-bgr-color-hero-title: #ffffff;
+  --main-text-color: #434455;
+  --focus-active-links-main-logo-color: #4d5ae5;
+  --footer-subtitle-color: #e7e9fc;
+  --team-bgr-logo-footer-studio-color: #f4f4fd;
+  --portfolio-btn-bgr-focus-hover: #404bbf;
+}
+
 .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
+  font-style: normal;
+  font-family: inherit;
 }
 
 .button {
   cursor: pointer;
+  font-family: inherit;
 }
 
 body {
-  background-color: #ffffff;
-  color: #434455;
+  background-color: var(--main-bgr-color--main-bgr-color-hero-title);
+  color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.logo,
-.footer-logo {
+/* HEADER */
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.3;
   text-decoration: none;
   letter-spacing: 0.03em;
-}
-
-.logo-web {
-  color: #4d5ae5;
+  color: var(--focus-active-links-main-logo-color);
 }
 
 .header-logo-studio {
-  color: #2e2f42;
+  color: var(--hero-bgr-links-headings-logo-header-studio-color);
 }
 
 .footer-logo-studio {
-  color: #f4f4fd;
+  color: var(--team-bgr-logo-footer-studio-color);
 }
 
 .header-link {
-  font-family: "Roboto";
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #434455;
+  color: var(--main-text-color);
 }
 
 .header-link:hover,
 .header:link:focus {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #404bbf;
+  color: var(--focus-active-links-main-logo-color);
 }
 
 .header-address-link {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 24px;
-  color: #2e2f42;
+  color: var(--main-text-color);
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 24px;
-  color: #404bbf;
+  color: var(--focus-active-links-main-logo-color);
 }
 
+/* HERO */
 .hero {
-  background: #2e2f42;
+  background: var(--hero-bgr-links-headings-logo-header-studio-color);
 }
 
 .hero-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.1;
   text-align: center;
-  color: #ffffff;
+  color: var(--main-bgr-color-hero-title);
 }
 
 .hero-button {
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--focus-active-links-main-logo-color);
   border-radius: 4px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 16px 32px;
-  gap: 10px;
-  font-family: "Roboto";
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  border: 0;
+  color: var(--main-bgr-color-hero-title);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  background: var(--focus-active-links-main-logo-color);
 }
 
+/* ADVANTAGES */
 .section-adventages-item-title {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  color: #2e2f42;
+  line-height: 1.2;
+  color: var(--hero-bgr-links-headings-logo-header-studio-color);
 }
 
-.section-adventages-item-text {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 24px;
-  color: #434455;
-}
-
+/* PROJECTS */
 .section-projects-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  text-transform: capitalize;
-  color: #2e2f42;
+  line-height: 1.1;
+  color: var(--hero-bgr-links-headings-logo-header-studio-color);
+}
+
+/* TEAM */
+.section-team {
+  background-color: var(--team-bgr-logo-footer-studio-color);
+}
+
+.section-team-item {
+  background-color: var(--main-bgr-color-hero-title);
 }
 
 .section-team-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  text-transform: capitalize;
-  color: #2e2f42;
+  line-height: 1.1;
+  color: var(--hero-bgr-links-headings-logo-header-studio-color);
 }
 
 .section-team-item-title {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  color: #2e2f42;
+  line-height: 1.2;
+  color: var(--hero-bgr-links-headings-logo-header-studio-color);
 }
 
-.section-team-item-text {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 24px;
-  color: #434455;
-}
-
+/* FOOTER */
 .footer {
-  width: 1440px;
-  height: 310px;
-  left: 0px;
-  top: 2280px;
-  background: #2e2f42;
+  background: var(--hero-bgr-links-headings-logo-header-studio-color);
 }
 
 .footer-text {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 24px;
-  color: #e7e9fc;
+  color: var(--footer-subtitle-color);
 }
 
 /* PORTFOLIO */
 
-.section-buttons-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.portfolio-button {
   padding: 12px 24px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background: var(--team-bgr-logo-footer-studio-color);
+  border: 1px solid var(--footer-subtitle-color);
   border-radius: 4px;
-  flex: none;
-  flex-grow: 0;
-  font-family: "Roboto";
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--focus-active-links-main-logo-color);
 }
-.section-buttons-button:hover,
-.section-buttons-button:focus {
-  background: #404bbf;
-  color: #ffffff;
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: var(--portfolio-btn-bgr-focus-hover);
+  color: var(--main-bgr-color-hero-title);
 }
 
-.section-cards-item-title {
-  font-family: "Roboto";
+.cards-item-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  line-height: 1.2;
+  color: var(--hero-bgr-links-headings-logo-header-studio-color);
 }
-
-.section-cards-item-text {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 24px;
-  color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
+/* dla cartok linia
+border: 1px solid #E7E9FC; */
