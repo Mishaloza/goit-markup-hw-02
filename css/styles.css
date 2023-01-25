@@ -33,6 +33,10 @@ body {
 }
 
 /* HEADER */
+.header {
+  border: 1px solid var(--footer-subtitle-color);
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -169,5 +173,7 @@ body {
   line-height: 1.2;
   color: var(--hero-bgr-links-headings-logo-header-studio-color);
 }
-/* dla cartok linia
-border: 1px solid #E7E9FC; */
+
+.portfolio-cards-item {
+  border: 1px solid var(--footer-subtitle-color);
+}
