@@ -1,8 +1,8 @@
 :root {
-  --hero-bgr-links-headings-logo-header-studio-color: #2e2f42;
-  --main-bgr-color-hero-title: #ffffff;
+  --herobgr-links-headings-logoheaderstudio: #2e2f42;
+  --mainbgrcolor-herotitle: #ffffff;
   --main-text-color: #434455;
-  --focus-active-links-main-logo-color: #4d5ae5;
+  --focusactivelinks-mainlogocolor: #4d5ae5;
   --footer-subtitle-color: #e7e9fc;
   --team-bgr-logo-footer-studio-color: #f4f4fd;
   --portfolio-btn-bgr-focus-hover: #404bbf;
@@ -35,7 +35,7 @@
 }
 
 body {
-  background-color: var(--main-bgr-color--main-bgr-color-hero-title);
+  background-color: var(--mainbgrcolor-herotitle);
   color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -43,7 +43,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* HEADER */
+/* --------------- HEADER --------------- */
 .header {
   border-bottom: 1px solid var(--footer-subtitle-color);
 }
@@ -55,11 +55,11 @@ body {
   line-height: 1.3;
   text-decoration: none;
   letter-spacing: 0.03em;
-  color: var(--focus-active-links-main-logo-color);
+  color: var(--focusactivelinks-mainlogocolor);
 }
 
 .header-logo-studio {
-  color: var(--hero-bgr-links-headings-logo-header-studio-color);
+  color: var(--herobgr-links-headings-logoheaderstudio);
 }
 
 .footer-logo-studio {
@@ -73,7 +73,7 @@ body {
 
 .header-link:hover,
 .header:link:focus {
-  color: var(--focus-active-links-main-logo-color);
+  color: var(--focusactivelinks-mainlogocolor);
 }
 
 .header-address-link {
@@ -83,12 +83,12 @@ body {
 
 .header-address-link:hover,
 .header-address-link:focus {
-  color: var(--focus-active-links-main-logo-color);
+  color: var(--focusactivelinks-mainlogocolor);
 }
 
-/* HERO */
+/* --------------- HERO --------------- */
 .hero {
-  background: var(--hero-bgr-links-headings-logo-header-studio-color);
+  background: var(--herobgr-links-headings-logoheaderstudio);
 }
 
 .hero-title {
@@ -96,75 +96,75 @@ body {
   font-size: 56px;
   line-height: 1.1;
   text-align: center;
-  color: var(--main-bgr-color-hero-title);
+  color: var(--mainbgrcolor-herotitle);
 }
 
 .hero-button {
   font-size: 16px;
   line-height: 1.5;
-  background: var(--focus-active-links-main-logo-color);
+  background: var(--focusactivelinks-mainlogocolor);
   border-radius: 4px;
   padding: 16px 32px;
   font-weight: 500;
   letter-spacing: 0.04em;
   border: 0;
-  color: var(--main-bgr-color-hero-title);
+  color: var(--mainbgrcolor-herotitle);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background: var(--focus-active-links-main-logo-color);
+  background: var(--focusactivelinks-mainlogocolor);
 }
 
-/* ADVANTAGES */
+/* --------------- ADVANTAGES --------------- */
 .section-adventages-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--hero-bgr-links-headings-logo-header-studio-color);
+  color: var(--herobgr-links-headings-logoheaderstudio);
 }
 
-/* PROJECTS */
+/* --------------- PROJECTS --------------- */
 .section-projects-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  color: var(--hero-bgr-links-headings-logo-header-studio-color);
+  color: var(--herobgr-links-headings-logoheaderstudio);
 }
 
-/* TEAM */
+/* --------------- TEAM --------------- */
 .section-team {
   background-color: var(--team-bgr-logo-footer-studio-color);
 }
 
 .section-team-item {
-  background-color: var(--main-bgr-color-hero-title);
+  background-color: var(--mainbgrcolor-herotitle);
 }
 
 .section-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  color: var(--hero-bgr-links-headings-logo-header-studio-color);
+  color: var(--herobgr-links-headings-logoheaderstudio);
 }
 
 .section-team-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--hero-bgr-links-headings-logo-header-studio-color);
+  color: var(--herobgr-links-headings-logoheaderstudio);
 }
 
-/* FOOTER */
+/* --------------- FOOTER --------------- */
 .footer {
-  background: var(--hero-bgr-links-headings-logo-header-studio-color);
+  background: var(--herobgr-links-headings-logoheaderstudio);
 }
 
 .footer-text {
   color: var(--footer-subtitle-color);
 }
 
-/* PORTFOLIO */
+/* --------------- PORTFOLIO --------------- */
 
 .portfolio-button {
   font-size: 16px;
@@ -175,17 +175,17 @@ body {
   border-radius: 4px;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: var(--focus-active-links-main-logo-color);
+  color: var(--focusactivelinks-mainlogocolor);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   background: var(--portfolio-btn-bgr-focus-hover);
-  color: var(--main-bgr-color-hero-title);
+  color: var(--mainbgrcolor-herotitle);
 }
 
 .cards-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--hero-bgr-links-headings-logo-header-studio-color);
+  color: var(--herobgr-links-headings-logoheaderstudio);
 }
