@@ -52,6 +52,17 @@
 .button {
   cursor: pointer;
   font-family: inherit;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 body {
@@ -120,14 +131,9 @@ body {
 }
 
 .hero-button {
-  font-size: 16px;
-  line-height: 1.5;
-  background: var(--hero-btn-bgr-color);
-  border-radius: 4px;
   padding: 16px 32px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
   border: 0;
+  background: var(--hero-btn-bgr-color);
   color: var(--hero-btn-content-color);
 }
 
@@ -138,9 +144,6 @@ body {
 
 /* --------------- ADVANTAGES --------------- */
 .section-adventages-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
   color: var(--main-page-section-title-color);
 }
 
@@ -169,9 +172,6 @@ body {
 }
 
 .section-team-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
   color: var(--item-title-color);
 }
 
@@ -187,14 +187,9 @@ body {
 /* --------------- PORTFOLIO --------------- */
 
 .portfolio-button {
-  font-size: 16px;
-  line-height: 1.5px;
-  padding: 12px 24px;
   background: var(--team-bgr-logo-footer-studio-);
   border: 1px solid var(--footer-subtitle-color);
-  border-radius: 4px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  padding: 12px 24px;
   color: var(--portfolio-btn-content-color);
 }
 .portfolio-button:hover,
@@ -204,8 +199,5 @@ body {
 }
 
 .portfolio-cards-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
   color: var(--item-title-color);
 }
